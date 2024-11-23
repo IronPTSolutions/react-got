@@ -15,6 +15,7 @@ function EpisodeList({ season, search }) {
             season={episode.season}
             episode={episode.number}
             img={episode.image.medium}
+            id={episode.id}
           />
         ))}
     </div>
